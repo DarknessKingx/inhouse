@@ -1,2 +1,6 @@
 web: node index.js
 worker: node bot.js
+heroku ps:scale worker=1
+heroku ps:resize worker=standard-2x
+heroku ps
+heroku logs --ps worker
