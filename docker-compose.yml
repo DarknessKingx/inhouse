@@ -1,5 +1,3 @@
-﻿# THIS FILE IS MEANT TO BE AN EXAMPLE DOCKER COMPOSE FILE TO RUN THE BOT
-
 version: "3.8"
 
 services:
